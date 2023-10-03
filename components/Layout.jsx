@@ -9,9 +9,9 @@ const sora = Sora({
 });
 
 //Components
-import Nav from "../components/Nav";
-import TopLeftImg from "../components/TopLeftImg";
-import Header from "../components/Header";
+import Nav from "./Nav";
+import TopLeftImg from "./TopLeftImg";
+import Header from "./Header";
 import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 
